@@ -23,6 +23,8 @@ typedef struct convert convert_t;
 
 
 /* printf function handle types */
+int parser(const char *format, convert_t form_list[], va_list arg_list);
+int _putcar(char);
 int print_char(va_list);
 int print_string(va_list);
 int print_percent(va_list);
