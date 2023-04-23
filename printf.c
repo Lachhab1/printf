@@ -16,8 +16,14 @@ int _printf(const char *format, ...)
 		{"%", print_percent}
 	};
 	va_list arg_list;
+
+
 	if (format == NULL)
 	return (-1);
 
 	va_start(arg_list, format);
+	count = parser(format, form_list, arg_list);
+	va_end(arg_list);
 
+	return (count);
+}

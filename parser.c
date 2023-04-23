@@ -14,7 +14,7 @@ int parser(const char *format, convert_t form_list[], va_list arg_list)
 	count = 0;
 	for (i = 0; format[i] != '\0'; i++)
 	{
-		if (format[i] == '%') 
+		if (format[i] == '%')
 		{
 			for (j = 0; form_list[j].sym != NULL; j++)
 			{

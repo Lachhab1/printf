@@ -22,12 +22,12 @@ struct convert
 typedef struct convert convert_t;
 
 
-//printf function handle types
+/* printf function handle types */
 int print_char(va_list);
 int print_string(va_list);
 int print_percent(va_list);
 
-//desire end function
+/* desire end function */
 int _printf(const char *format, ...);
 
 #endif
