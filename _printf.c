@@ -13,7 +13,10 @@ int _printf(const char *format, ...)
 	convert_t form_list[] = {
 		{"c", print_char},
 		{"s", print_string},
-		{"%", print_percent}
+		{"%", print_percent},
+		{"d", print_integer},
+		{"i", print_integer}
+
 	};
 	va_list arg_list;
 

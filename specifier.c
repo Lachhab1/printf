@@ -47,3 +47,32 @@ int print_percent(__attribute__((unused))va_list list)
 	_putcar('%');
 	return (1);
 }
+
+/**
+ * print_integer - Prints an integer
+ * @list: list of integers
+ * Return: amount of charcters printed
+ */
+int print_integer(va_list list)
+{
+	int n, t = 1, len = 0;
+	unsigned int num;
+
+	n = va_arg(list, int);
+	if (n < 0)
+	{
+		len += _putcar('-');
+		num = n * -1;
+	}
+	else
+		num = n;
+	while (num / t > 9)
+		t *= 10;
+	while (t != 0)
+	{
+		len += _putcar('0' + num / t);
+		num %= t;
+		t /= 10;
+	}
+	return (len);
+}
