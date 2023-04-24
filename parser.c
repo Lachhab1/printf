@@ -4,6 +4,7 @@
  * @format: the string input that contain format
  * @form_list: the list of format
  * @arg_list: the list of args
+ * by Mohammed & badr
  * Return: the amount of characters printed
  */
 int parser(const char *format, convert_t form_list[], va_list arg_list)
