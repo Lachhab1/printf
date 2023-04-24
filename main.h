@@ -1,10 +1,11 @@
-#ifndef PRINT_H
-#define PRINT_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
-
+#include <stdio.h>
+#include <stddef.h>
 
 /**
 * struct convert - defines a structure for symbols and functions
