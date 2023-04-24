@@ -1,5 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+
+/**
+ * main - Entry Point
+ * Return: always 0 (Succes)
+ */
+
 int main(void)
 {
 	int len, len2;

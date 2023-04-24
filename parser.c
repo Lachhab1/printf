@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
- * parser - f
- * @format: f
- * @form_list: f
- * @arg_list: fff
- * Return: ffffffffffffffff
+ * parser - function for calc amount of char printed
+ * @format: the string input that contain format
+ * @form_list: the list of format
+ * @arg_list: the list of args
+ * Return: the amount of characters printed
  */
 int parser(const char *format, convert_t form_list[], va_list arg_list)
 {
