@@ -22,7 +22,9 @@ int parser(const char *format, convert_t form_list[], va_list arg_list)
 				{
 					r_val = form_list[j].f(arg_list);
 					if (r_val == -1)
+					{
 						return (-1);
+					}
 					count += r_val;
 					break;
 				}
@@ -36,7 +38,9 @@ int parser(const char *format, convert_t form_list[], va_list arg_list)
 					count += 2;
 				}
 				else
+				{
 					return (-1);
+				}
 			}
 			i++;
 		}

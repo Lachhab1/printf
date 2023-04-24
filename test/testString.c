@@ -1,20 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0
- */
-
 int main(void)
 {
-	char a;
-	char *b;
+	int len, len2;
 
-	a = 'H';
-	b = "hello";
-
-	a = _printf("%c, %s\n", a, b);
-	a = _printf("%");
+	len = _printf("Percent:[%%]\n");
+	len2 = printf("Percent:[%%]\n");
+	(void) len;
+	(void) len2;
 	return (0);
 }

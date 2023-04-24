@@ -4,8 +4,6 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
-#include <stdio.h>
-#include <stddef.h>
 
 /**
 * struct convert - defines a structure for symbols and functions
