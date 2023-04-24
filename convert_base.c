@@ -59,13 +59,14 @@ int print_octal(va_list list)
 	octal_rep = malloc(sizeof(char) * len + 1);
 	if (octal_rep == NULL)
 		return (-1);
-	for (len = 0; num > 0; len++)
+	for (i = 0; num > 0; i++)
 	{
-		octal_rep[len] = (num % 8) + 48;
+		octal_rep[i] = (num % 8) + 48;
 		num = num / 8;
 
 	}
-	octal_rep[len] = '\0';
+	octal_rep[i] = '\0';
+	len = i;
 	rev_str = rev_string(octal_rep);
 	if (rev_str == NULL)
 		return (-1);
