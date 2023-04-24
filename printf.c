@@ -10,7 +10,7 @@
 int _printf(const char *format, ...)
 {
 	int count;
-	converter_t form_list[] = {
+	convert_t form_list[] = {
 		{"c", print_char},
 		{"s", print_string},
 		{"%", print_percent}
@@ -19,9 +19,7 @@ int _printf(const char *format, ...)
 
 
 	if (format == NULL)
-	{
 	return (-1);
-	}
 
 	va_start(arg_list, format);
 	count = parser(format, form_list, arg_list);
