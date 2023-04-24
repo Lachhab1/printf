@@ -3,6 +3,7 @@
 /**
  * print_binary - Converts to binary
  * @list: list of binarys
+ * by Mohammed & badr
  * Return: binary number length
  */
 
