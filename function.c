@@ -3,6 +3,7 @@
 /**
  * rev_string - reverse String
  * @src: String
+ * by Mohammed & badr
  * Return: a pointer to reversed String
  */
 char *rev_string(char *src)
