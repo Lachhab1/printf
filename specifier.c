@@ -3,6 +3,7 @@
 /**
  * print_char - Prints character
  * @list: list of arguments
+ * by Mohammed & badr
  * Return: return the amount of characters printed
  */
 
