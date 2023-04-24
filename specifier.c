@@ -86,7 +86,7 @@ int print_unsigned(va_list list)
 {
 	unsigned int num, n;
 	int t = 1, len = 0;
-	
+
 	n = va_arg(list, unsigned int);
 	num = n;
 	while (num / t > 9)
@@ -101,4 +101,4 @@ int print_unsigned(va_list list)
 	if (n < 1)
 		return (-1);
 	return (len);
-}	
+}
