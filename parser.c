@@ -7,6 +7,7 @@
  * @arg_list: fff
  * Return: ffffffffffffffff
  */
+
 int parser(const char *format, convert_t form_list[], va_list arg_list)
 {
 	int i, j, r_val, count;
@@ -36,7 +37,9 @@ int parser(const char *format, convert_t form_list[], va_list arg_list)
 					count += 2;
 				}
 				else
+				{
 					return (-1);
+				}
 			}
 			i++;
 		}
