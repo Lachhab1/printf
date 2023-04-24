@@ -44,7 +44,7 @@ int print_binary(va_list list)
 int print_octal(va_list list)
 {
 	unsigned int num;
-	int len;
+	int i, len;
 	char *octal_rep;
 	char *rev_str;
 
