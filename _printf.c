@@ -4,6 +4,7 @@
  * _printf - print the thing into stantard output
  *		receiving the necesary arguments
  * @format: the input containing all speciifiers
+ * by Mohammed & badr
  * Return: amount of chars printed
  */
 
