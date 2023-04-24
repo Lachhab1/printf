@@ -15,5 +15,6 @@ int main(void)
 	b = "hello";
 
 	a = _printf("%c, %s\n", a, b);
+	_printf("%");
 	return (0);
 }
