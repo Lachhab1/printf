@@ -3,6 +3,7 @@
 /**
  * _putcar - writes the input to stantard output
  * @c: char need to be printed
+ * by Mohammed & badr
  * Return: 1 on Succes and -1 if error occured
  */
 
