@@ -98,6 +98,8 @@ int print_unsigned(va_list list)
 		t /= 10;
 	}
 	num = va_arg(list, unsigned int);
+	if (n == 0)
+		return (len);
 	if (n < 1)
 		return (-1);
 	return (len);
